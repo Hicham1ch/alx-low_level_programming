@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * alloc_grid - nested loop to make grid
+ * alloc_grid - nested loop to make gird
  * @width: width input
  * @height: height input
- * Return; pointer to 2 dim. array
+ * Return: pointer to 2 dim. array
  */
 
 int **alloc_grid(int width, int height)
@@ -34,6 +34,7 @@ int **alloc_grid(int width, int height)
 			return (NULL);
 		}
 	}
+
 	for (x = 0; x < height; x++)
 	{
 		for (y = 0; y < width; y++)
@@ -42,3 +43,4 @@ int **alloc_grid(int width, int height)
 
 	return (mee);
 }
+
